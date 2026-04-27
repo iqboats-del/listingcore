@@ -1,8 +1,22 @@
-export default function HomePage() {
-  return (
-    <main style={{ maxWidth: 720, margin: "80px auto", padding: 24 }}>
-      <h1>ListingCore</h1>
-      <p>A simple marketplace pilot for listings, sellers, and order intent.</p>
-    </main>
-  );
+{
+  "name": "listingcore",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  }
 }
+  
+
